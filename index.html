@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Simples Sorteio</title>
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- container image -->
+        <div class="container-img">
+
+            <img src="sort 1.png" alt="Dev-Sorteio">
+
+        </div>
+
+        <p>Sortear um número</p>
+        <!-- container input -->
+        <div class="container-input">
+
+            <div class="input-box">
+                <input type="number" id="valor-x" required placeholder="Entre">
+
+            </div>
+
+            <div class="input-box">
+                <input type="number" id="valor-y" required placeholder="De">
+            </div>
+
+        </div>
+        <!-- button sortear -->
+        <button class="btn-sortear" id="btn-sortear" type="submit">Sortear</button>
+        <!-- resultado -->
+        <div class="result">
+            <div class="close">
+                <i class="bi bi-x-lg"></i>
+            </div>
+            <p class="show-result"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
