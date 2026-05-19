@@ -147,10 +147,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
     transform: scale(0);
     transition: transform .5s ease;
     border-radius: 10px;
+    line-height: 1.3em;
 }
 /* mostrar resultado */
 .result.show {
